@@ -1,4 +1,4 @@
-# How to Use AI for Vibe Coding
+# Building Technology Products with AI
 
 Context is key.
 - we need to make sure the AI has the full context

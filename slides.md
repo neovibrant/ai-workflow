@@ -1,13 +1,13 @@
-# How to Use AI for **Vibe Coding**
+# Building Technology Products with **AI**
 
-### Context, workflow, and keeping the agent useful
+### Using AI to turn product ideas into working apps, tools, and even new businesses
 
 Note:
 Use `keynotes.md` as the shareable keynote/source notes.
 
 ---
 
-# Context Is Key
+# **Context** Is Key
 
 The whole job is to build the right context for the task.
 
@@ -30,7 +30,7 @@ The AI needs:
 
 --
 
-## The Shy Engineer Analogy
+## The **Shy Engineer** Analogy
 
 Imagine a very good engineer who just joined your business.
 
@@ -40,7 +40,7 @@ They may avoid asking questions and make assumptions instead.
 
 ---
 
-# Basic Context
+# **Basic** Context
 
 Brief, always-on context for every task.
 
@@ -48,7 +48,7 @@ Put this in `AGENTS.md`.
 
 ---
 
-# Wider Context
+# **Wider** Context
 
 Keep detailed knowledge separate and pull it in only when needed.
 
@@ -56,7 +56,7 @@ Product. Tech. Design. Process.
 
 --
 
-## Need-To-Know Context
+## **Need-To-Know** Context
 
 Do not paste everything into every prompt.
 
@@ -78,7 +78,7 @@ If you repeat yourself to the agent, document it.
 
 ---
 
-# Code Context
+# **Code** Context
 
 The agent does not load all code at once.
 
@@ -86,7 +86,7 @@ It searches the codebase with tools.
 
 --
 
-## Code Signposting
+## Code **Signposting**
 
 Help the agent find the right code faster.
 
@@ -97,7 +97,7 @@ Help the agent find the right code faster.
 
 ---
 
-# Coding Flow
+# Coding **Flow**
 
 The flow is:
 
@@ -122,7 +122,7 @@ Only then proceed.
 
 --
 
-## Start With The Spec
+## Start With The **Spec**
 
 Begin from the product perspective.
 
@@ -138,7 +138,7 @@ The output should be detailed enough for another agent to execute.
 
 --
 
-## Testing Is Part Of The Solution
+## **Testing** Is Part Of The Solution
 
 Do not bolt testing on at the end.
 
@@ -159,7 +159,7 @@ Then let it execute with the right context.
 
 --
 
-## Review And Test
+## Review And **Test**
 
 Ask the agent to review its own work and run tests.
 
@@ -167,7 +167,7 @@ If it cannot verify something, it should ask you for evidence.
 
 ---
 
-# Improve The Workflow
+# **Improve** The Workflow
 
 After the work is done, improve the system.
 
@@ -178,4 +178,4 @@ After the work is done, improve the system.
 
 ---
 
-# Questions?
+# _Questions_?
