@@ -3,7 +3,7 @@
 ### Context, workflow, and keeping the agent useful
 
 Note:
-Use `workflow.md` as the shareable keynote/source notes.
+Use `keynotes.md` as the shareable keynote/source notes.
 
 ---
 
