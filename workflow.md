@@ -1,16 +1,16 @@
-# How to use AI to vibe code
+# How to Use AI for Vibe Coding
 
 Context is key.
 - we need to make sure the AI has the full context
 - we need to make sure the AI hasn't got context it doesn't need
 
-The second is important becuase:
+The second is important because:
 - irrelevant context fills the context (which is limited) and running with a larger context gives us lower quality
 - irrelevant context confuses the AI and prompts it to go in unexpected directions
 
-The entire effort is to build just the right context for a running a task.
+The entire effort is to build just the right context for running a task.
 
-One way to image this, is that you have a really good software engineer who has just joined your business and who has no clue what's going on. But they are very good and can learn very quickly. At the same time, they are very shy and they avoid taking any action that might cause you any discomfort. For example, they prefer to make assumptions instead of bothering you with questions.
+One way to imagine this is that you have a really good software engineer who has just joined your business and has no clue what's going on. They are very good and can learn very quickly. At the same time, they are very shy and avoid taking any action that might cause you any discomfort. For example, they prefer to make assumptions instead of bothering you with questions.
 
 ## Basic context
 
@@ -20,7 +20,7 @@ This will generally go in `AGENTS.md`—the file the agent will load into contex
 
 ## Deeper and wider context
 
-Presumably, your project will have all sort of resoruces: ideas, product requirements, technical decisions and some other types of things like philosophies that you think will me you more competitive. They all need to be documented in detail, but in a way that can be invoked and entered into context on a need-to-know basis.
+Presumably, your project will have all sorts of resources: ideas, product requirements, technical decisions and some other types of things like philosophies that you think will make you more effective. They all need to be documented in detail, but in a way that can be invoked and entered into context on a need-to-know basis.
 
 Separate them in different folders like:
 
@@ -30,18 +30,18 @@ Separate them in different folders like:
  |-> product-vision.md
  |-> feature-xyz.md
 --> Tech
- |-> tech-stach.md
+ |-> tech-stack.md
  |-> automated-testing-strategy.md
 --> Design
- |-> brand-indentity.md
+ |-> brand-identity.md
  |-> logo.png
 ```
 
 When you're working on a particular task, you can invoke some of these files in the prompt like:
 
-> @brand-indentity.md mentioned we need to update the accent colour to #900aff, let's see there in the FE this would need and update.
+> @brand-identity.md mentioned we need to update the accent colour to #900aff, let's see where in the FE this would need an update.
 
-Make sure this context is kept in separate files (or aretefacts, like wiki pages, or tickets, or whaterver) so that you can reference them when you need to without adding un-necessary things into the context.
+Make sure this context is kept in separate files (or artifacts, like wiki pages, or tickets, or whatever) so that you can reference them when you need to without adding unnecessary things into the context.
 
 ### The wider context is a growing thing
 
@@ -55,7 +55,7 @@ It's advisable to have the agent run in such a way that it can access several re
 
 ### Code Signposting
 
-Add some information about the code so that the agent can find things. Briefly explain what the techstack if (and explain where it casn find detailed info about it in the `Wider Context` so that it can fetch it, but only if it's needed). Explain some of the patterns of the code, especially those that are specific to your project. Explain the role of several repositories and so on.
+Add some information about the code so that the agent can find things. Briefly explain what the tech stack is (and explain where it can find detailed info about it in the `Wider Context` so that it can fetch it, but only if it's needed). Explain some of the patterns of the code, especially those that are specific to your project. Explain the role of several repositories and so on.
 
 This is also something that you'll need to tweak as you go along, as projects are different and they have their own specific things.
 
@@ -103,7 +103,7 @@ Use `/iterate` to explore the edge cases and implications of what you are specci
 
 The spec will probably cover several coding tasks (i.e. tickets). If you use Jira or similar, this will probably be an epic.
 
-When the iteration is complete, the agent will have created a document (md file, epic description, wiki page etc) that details the spec. It must be written in detail and cover all the edge cases and decisions made, but there is not need to explain **how** the decisions were made (that's TMI).
+When the iteration is complete, the agent will have created a document (md file, epic description, wiki page etc) that details the spec. It must be written in detail and cover all the edge cases and decisions made, but there is no need to explain **how** the decisions were made (that's TMI).
 
 ### Solutionising
 
@@ -127,11 +127,11 @@ Sometimes it's a good idea to prompt the agent to validate that the document is 
 
 Remember that testing quality is part of the solution. Remind the agent about it too. Actually, this is so important that it should likely be part of your `AGENTS.md`.
 
-### Implemeting 
+### Implementing 
 
 Give the agent the 2 documents created above, it should be enough to implement the entire feature, unattended.
 
-In some cases, where the feature is more complex, you can do this in attended mode, following though directly from the conversation above and keeping the context. This will allow you to add things to the context, request changes, challenge the direction the agent is taking, remind them of different things the may have overlooked.
+In some cases, where the feature is more complex, you can do this in attended mode, following through directly from the conversation above and keeping the context. This will allow you to add things to the context, request changes, challenge the direction the agent is taking, remind them of different things they may have overlooked.
 
 ### Review and test
 
@@ -141,11 +141,11 @@ If it can't test certain things, it should guide you to test it and ask for resu
 
 You should review the code (if you are able to) and make any suggestions.
 
-Don't change the code yourself, get into the habbit of never writing code.
+Avoid manually writing code when the goal is to improve your AI workflow. Get into the habit of guiding the agent instead.
 
 ### Process update
 
-After everything is done, reflect on patterns that would be repeateable and could be automated.
+After everything is done, reflect on patterns that would be repeatable and could be automated.
 
 - Was there anything that I told the agent that could be documented in the basic/wider context so that it can find it itself next time?
 - are there any skills that I can extract from this in order to improve my workflow?
@@ -158,7 +158,7 @@ Cleanup docs that won't be needed anymore. Usually the solutions can go or you c
 
 ## AGENTS.md
 
-Sometimes called `CLAUDE.md` is the most important file in your project! Tweak it and also tweak your interation with the agent.
+Sometimes called `CLAUDE.md` is the most important file in your project! Tweak it and also tweak your interaction with the agent.
 
 Here are some ideas:
 
