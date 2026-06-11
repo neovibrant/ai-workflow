@@ -9,7 +9,7 @@ Use `keynotes.md` as the shareable keynote/source notes.
 
 # **Context** Is Key
 
-The whole job is to build the right context for the task.
+The goal is the **right** context.
 
 --
 
